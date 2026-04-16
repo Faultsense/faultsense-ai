@@ -14,11 +14,18 @@
       "source": {
         "source": "github",
         "repo": "Faultsense/faultsense-claude-plugin",
-        "ref": "v0.0.0-placeholder"
+        "ref": "v0.5.4"
       },
       "description": "Instrument web apps with Faultsense production assertion monitoring. Teaches your AI coding agent how to add fs-* attributes that turn E2E assertions into real-user production checks.",
       "category": "monitoring",
-      "keywords": ["monitoring", "assertions", "production", "feature-health", "faultsense", "e2e"]
+      "keywords": [
+        "monitoring",
+        "assertions",
+        "production",
+        "feature-health",
+        "faultsense",
+        "e2e"
+      ]
     }
   ]
 }
