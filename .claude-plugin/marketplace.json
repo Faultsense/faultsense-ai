@@ -1,0 +1,24 @@
+{
+  "name": "faultsense-ai",
+  "owner": {
+    "name": "Faultsense",
+    "email": "hello@faultsense.com"
+  },
+  "metadata": {
+    "description": "Umbrella marketplace for Faultsense's AI-agent tools — production assertion monitoring, future instrumentation helpers, and other AI-side integrations.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "faultsense-instrumentation",
+      "source": {
+        "source": "github",
+        "repo": "Faultsense/faultsense-claude-plugin",
+        "ref": "v0.0.0-placeholder"
+      },
+      "description": "Instrument web apps with Faultsense production assertion monitoring. Teaches your AI coding agent how to add fs-* attributes that turn E2E assertions into real-user production checks.",
+      "category": "monitoring",
+      "keywords": ["monitoring", "assertions", "production", "feature-health", "faultsense", "e2e"]
+    }
+  ]
+}
